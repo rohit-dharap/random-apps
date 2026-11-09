@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" role="img" aria-labelledby="title desc">
+  <title id="title">फोटोसाठी जागा</title><desc id="desc">हा फोटो बदलून तुमचा फोटो ठेवा</desc>
+  <defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#f8d99b"/><stop offset="1" stop-color="#ce6c75"/></linearGradient></defs>
+  <rect width="400" height="500" fill="url(#g)"/><circle cx="200" cy="177" r="76" fill="#fff3d8" opacity=".85"/><path d="M62 450c13-103 68-154 138-154s125 51 138 154" fill="#fff3d8" opacity=".85"/><text x="200" y="478" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#54213a">इथे तुमचा फोटो ठेवा</text>
+</svg>
