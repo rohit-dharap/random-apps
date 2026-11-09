@@ -64,15 +64,18 @@ body { margin: 0; min-height: 100svh; overflow-x: hidden; background: #070b1d; }
 .card { position: relative; z-index: 1; width: 100%; text-align: center; animation: arrive .9s cubic-bezier(.18,.8,.3,1) both; }
 .hidden { display: none; }
 .eyebrow { margin: 0 0 20px; color: #ffd77d; font-size: .78rem; font-weight: 700; letter-spacing: .08em; }
+.sister-reveal { position: relative; top: 24px; max-width: 320px; margin: 48px auto 60px; font-size: clamp(1.05rem, 5vw, 1.3rem); letter-spacing: 0; line-height: 1.45; }
+.sister-reveal span { display: block; }
 .greeting { font-size: .9rem; letter-spacing: .01em; line-height: 1.4; }
 .question { width: 100%; min-height: 150px; border: 0; padding: 14px 4px; background: none; color: inherit; font-family: 'Playfair Display', 'Noto Sans Devanagari', Georgia, serif; font-size: clamp(2.25rem, 10vw, 2.8rem); line-height: 1.35; cursor: pointer; -webkit-tap-highlight-color: transparent; animation: shimmer 2.8s ease-in-out infinite; }
 .question:focus-visible, .gift-link:focus-visible { outline: 2px solid #ffe3ad; outline-offset: 7px; }
 .hint { display: grid; justify-items: center; gap: 8px; margin-top: 25px; color: #e7d9da; font-size: .9rem; }
 .swipe-icon { display: inline-block; font-size: 1.5rem; animation: swipe-cue 1.15s ease-in-out infinite; }
-.portrait { animation: reveal .8s cubic-bezier(.18,.8,.3,1) both; }
+.portrait { position: relative; top: 30px; animation: reveal .8s cubic-bezier(.18,.8,.3,1) both; }
 .photo-frame { width: min(68vw, 290px); margin: 0 auto; padding: 8px; border: 1px solid #ffe18d; border-radius: 180px 180px 24px 24px; background: linear-gradient(145deg, #ffe18d, #db7547 55%, #ffe18d); box-shadow: 0 20px 55px #080918aa; animation: float 3s ease-in-out infinite; }
 .photo-frame img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 172px 172px 17px 17px; }
 .caption { margin: 22px 0 0; font: 600 1.45rem 'Playfair Display', 'Noto Sans Devanagari', Georgia, serif; color: #ffe29b; }
+.sister-answer { max-width: 340px; margin: 22px auto 0; color: #ffd77d; font-size: 1.8rem; font-weight: 700; line-height: 1.4; }
 h1 { margin: 0; font: 600 clamp(2.1rem, 9vw, 2.8rem)/1.35 'Playfair Display', 'Noto Sans Devanagari', Georgia, serif; }
 .gift-link { display: inline-flex; justify-content: center; gap: 12px; align-items: center; min-height: 54px; max-width: 100%; margin-top: 30px; padding: 15px 19px; border-radius: 999px; color: #29172c; background: linear-gradient(135deg, #ffe08a, #ffb947); text-decoration: none; font-weight: 700; box-shadow: 0 8px 28px #08091899; transition: transform .2s, background .2s; -webkit-tap-highlight-color: transparent; }
 .gift-link:hover { transform: translateY(-3px); background: #ffe7ba; }
