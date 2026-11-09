@@ -1,0 +1,7 @@
+{
+  "resourcePath": "./resources/",
+  "assets": {
+    "portrait": "photo-placeholder.svg"
+  },
+  "amazonGiftCardUrl": "https://www.amazon.in/gift-card-store"
+}

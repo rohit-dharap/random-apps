@@ -13,12 +13,13 @@ Edit `apps.json` to control each app:
 - `expires_at`: optional ISO-8601 timestamp; the app is removed at or after it.
 - `path`: source folder for that app.
 
-`Diwali_Padva_2026` is enabled for a 48-hour window starting November 9, 2026
-at 15:39:54 UTC. The scheduled Pages workflow checks expiry once a day and
-republishes the active set. You can also run **Publish active mini apps**
-manually from the Actions tab to publish a lifecycle change immediately. To
-take an app down early, set its `expires_at` to a past timestamp and run the
-workflow.
+`Diwali_Padva_2026` has a 48-hour window starting November 9, 2026 at
+15:39:54 UTC. `Bhaubij_2026` is scheduled from November 10, 2026 at 18:00
+through November 12, 2026 at 18:00 India time. The Pages workflow checks
+timestamps once a day at 00:17 UTC (05:47 India time), so it may take until the
+next scheduled run to publish an activation or expiry. Run **Publish active
+mini apps** manually from the Actions tab at a timestamp boundary to publish
+that change immediately.
 
 ## GitHub Pages setup
 
