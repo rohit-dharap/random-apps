@@ -16,10 +16,10 @@ Edit `apps.json` to control each app:
 `Diwali_Padva_2026` has a 48-hour window starting November 9, 2026 at
 15:39:54 UTC. `Bhaubij_2026` is scheduled from November 10, 2026 at 18:00
 through November 12, 2026 at 18:00 India time. The Pages workflow checks
-timestamps once a day at 00:17 UTC (05:47 India time), so it may take until the
-next scheduled run to publish an activation or expiry. Run **Publish active
-mini apps** manually from the Actions tab at a timestamp boundary to publish
-that change immediately.
+timestamps at 00:17 UTC (05:47 India time) and 18:30 UTC (midnight India time).
+GitHub may start scheduled runs a little late; run **Publish active mini apps**
+manually from the Actions tab at a timestamp boundary when an activation or
+expiry must publish immediately.
 
 ## GitHub Pages setup
 
