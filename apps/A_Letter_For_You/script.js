@@ -6,9 +6,9 @@ const previous = document.querySelector('#previous');
 const next = document.querySelector('#next');
 
 const defaultPhotos = [
-  { src: 'photo-placeholder.svg', alt: 'फोटोसाठी जागा', caption: 'इथे आपला फोटो' },
-  { src: 'photo-placeholder.svg', alt: 'फोटोसाठी जागा', caption: 'आपला एक सुंदर क्षण' },
-  { src: 'photo-placeholder.svg', alt: 'फोटोसाठी जागा', caption: 'आणखी एक खास आठवण' },
+  { src: 'photo-placeholder.svg', alt: 'Photo placeholder 1', caption: 'Our first photo goes here' },
+  { src: 'photo-placeholder.svg', alt: 'Photo placeholder 2', caption: 'A favourite little adventure goes here' },
+  { src: 'photo-placeholder.svg', alt: 'Photo placeholder 3', caption: 'One more memory to add here' },
 ];
 let photos = defaultPhotos;
 let current = 0;
@@ -30,7 +30,7 @@ function renderDots() {
     const button = document.createElement('button');
     button.type = 'button';
     button.className = 'dot';
-    button.setAttribute('aria-label', `फोटो ${index + 1} दाखवा${photo.caption ? `: ${photo.caption}` : ''}`);
+    button.setAttribute('aria-label', `Show photo ${index + 1}${photo.caption ? `: ${photo.caption}` : ''}`);
     button.addEventListener('click', () => showPhoto(index));
     return button;
   }));
