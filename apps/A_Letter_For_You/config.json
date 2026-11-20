@@ -1,8 +1,8 @@
 {
   "resourcePath": "./resources/",
   "photos": [
-    { "src": "photo-placeholder.svg", "alt": "Photo placeholder 1", "caption": "Our first photo goes here" },
-    { "src": "photo-placeholder.svg", "alt": "Photo placeholder 2", "caption": "A favourite little adventure goes here" },
-    { "src": "photo-placeholder.svg", "alt": "Photo placeholder 3", "caption": "One more memory to add here" }
+    { "src": "photo-placeholder.svg", "alt": "आपल्या आठवणींचा फोटो", "caption": "आपला एक खास क्षण" },
+    { "src": "photo-placeholder.svg", "alt": "आपल्या आठवणींचा फोटो", "caption": "आपली एक सुंदर आठवण" },
+    { "src": "photo-placeholder.svg", "alt": "आपल्या आठवणींचा फोटो", "caption": "आणखी एक खास क्षण" }
   ]
 }
