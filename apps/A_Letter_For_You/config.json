@@ -1,0 +1,8 @@
+{
+  "resourcePath": "./resources/",
+  "photos": [
+    { "src": "photo-placeholder.svg", "alt": "Photo placeholder 1", "caption": "Our first photo goes here" },
+    { "src": "photo-placeholder.svg", "alt": "Photo placeholder 2", "caption": "A favourite little adventure goes here" },
+    { "src": "photo-placeholder.svg", "alt": "Photo placeholder 3", "caption": "One more memory to add here" }
+  ]
+}

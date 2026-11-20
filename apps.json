@@ -9,6 +9,10 @@
       "activated_at": "2026-11-10T00:00:00Z",
       "expires_at": "2026-11-12T12:30:00Z",
       "path": "apps/Bhaubij_2026"
+    },
+    "A_Letter_For_You": {
+      "expires_at": "2026-11-22T18:30:00Z",
+      "path": "apps/A_Letter_For_You"
     }
   }
 }
