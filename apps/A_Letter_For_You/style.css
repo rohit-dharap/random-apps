@@ -42,9 +42,9 @@ blockquote { margin: 0; color: #80565b; font-size: 19px; font-style: italic; lin
 h2 { margin: 0; font-size: clamp(27px, 6vw, 37px); }
 .memories-intro { margin: 11px 0 25px; color: var(--muted); font-size: 14px; }
 .marathi-quote { margin: 0 auto 22px; color: #80565b; font-family: Georgia, 'Times New Roman', serif; font-size: 19px; font-style: italic; line-height: 1.6; }
-.slideshow { width: min(100%, 500px); margin: auto; }
-.photo-frame { position: relative; aspect-ratio: 4 / 3; padding: 10px; background: #fff; box-shadow: 0 12px 34px #49373a1b; transform: rotate(-1deg); }
-.photo-frame img { display: block; width: 100%; height: 100%; object-fit: cover; background: #f4dcd6; }
+.slideshow { width: min(100%, 380px); margin: auto; }
+.photo-frame { position: relative; aspect-ratio: 3 / 4; padding: 8px; background: #fff; box-shadow: 0 12px 34px #49373a1b; }
+.photo-frame img { display: block; width: 100%; height: 100%; object-fit: contain; background: #f4dcd6; }
 .photo-heart { position: absolute; right: 22px; bottom: 18px; color: #fff; font-size: 23px; text-shadow: 0 1px 7px #49373a66; }
 .photo-caption { min-height: 24px; margin: 17px 0 13px; color: #795c5e; font-family: Georgia, 'Times New Roman', serif; font-size: 17px; font-style: italic; }
 .slide-controls { display: flex; align-items: center; justify-content: center; gap: 18px; }
